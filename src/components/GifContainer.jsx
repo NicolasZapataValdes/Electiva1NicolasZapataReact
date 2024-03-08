@@ -1,3 +1,4 @@
+// Import React library
 import React from "react";
 
 // GifContainer component
