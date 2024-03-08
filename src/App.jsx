@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.css"; // Importación del archivo CSS
 
 // Importación de los componentes
 import UpdateGifs from "./components/UpdateGifs";
