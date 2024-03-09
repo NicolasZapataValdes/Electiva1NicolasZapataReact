@@ -5,7 +5,6 @@ import React from "react";
 const GifContainer = ({ title, imageUrl }) => {
   return (
     <div className="image-container">
-      {/* Render the image */}
       <img src={imageUrl} alt={title} />
     </div>
   );

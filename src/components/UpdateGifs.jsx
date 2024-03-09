@@ -19,24 +19,27 @@ const UpdateGifs = ({ setCategory }) => {
       return; // Exit the function
     }
 
-    setError(false); // Reset the error state to false
-    setCategory(value); // Update the category in the parent component's state
-    setValue(""); // Clear the input value
+    // Reset the error state to false
+    setError(false);
+    // Update the category in the parent component's state
+    setCategory(value);
+    // Clear the input value
+    setValue("");
   };
 
   // Component rendering
   return (
     <>
-      {/* Form to add a category */}
       <form onSubmit={searchGif}>
         <input
           type="text"
           placeholder="What do you want to look for?"
-          onChange={(e) => setValue(e.target.value)} // Update the input value
-          value={value} // Assign the state value to the input
+          // Update the input value
+          onChange={(e) => setValue(e.target.value)}
+          // Assign the state value to the input
+          value={value}
         />
       </form>
-      {/* Display an error message if the input is empty */}
       {error ? <p className="error">The field cannot be empty</p> : ""}
     </>
   );
