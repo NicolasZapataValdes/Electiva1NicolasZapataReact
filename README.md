@@ -1,8 +1,33 @@
-# React + Vite
+# ReactGiApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nicolas Augusto Zapata Valdes
 
-Currently, two official plugins are available:
+## Acerca del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+Este proyecto fue realizado para la clase "Electiva 1"
+Tiene como objetivo principal crear un aplicativo en React que llame a la API de GIPHY y traiga como respuesta un gif
+
+Para realizar este proyecto, busqué referencias de como usar la API en las siguientes fuentes:
+https://botpress.com/es/blog/using-botpress-actions-with-the-giphy-api#uso-de-un-entorno-y-configuracion-de-la-clave-api
+https://es.stackoverflow.com/questions/320945/consulta-api-giphy-con-javascript
+https://dev.to/willochs316/creating-gifs-with-giphy-api-and-reactjs-a-beginners-guide-42d0
+
+Para el desarrollo de los estilos, utilicé css nativo, no tomé referencias.
+
+En ocaciones usé chatgpt para salir de bugs o dudas
+```
+
+## Instalación
+```
+Instrucciones paso a paso sobre cómo instalar y configurar el proyecto:
+Clonar el proyecto
+Entrar a la carpeta clonada
+npm install
+npm run dev
+```
+## Tecnologías Utilizadas
+
+- React
+- Chagpt
+
